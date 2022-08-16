@@ -1,0 +1,33 @@
+Suresh Chand@DESKTOP-QKOIBO2 MINGW64 /d/Project 2022 (main)
+$ git remote -v
+origin  git@github.com:tbomb780/projects2022.git (fetch)
+origin  git@github.com:tbomb780/projects2022.git (push)
+
+Suresh Chand@DESKTOP-QKOIBO2 MINGW64 /d/Project 2022 (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+
+Suresh Chand@DESKTOP-QKOIBO2 MINGW64 /d/Project 2022 (main)
+$ git push --set-upstream origin main
+Enter passphrase for key '/c/Users/Suresh Chand/.ssh/id_rsa':
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (21/21), 2.64 KiB | 386.00 KiB/s, done.
+Total 21 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+remote:
+remote: Create a pull request for 'main' on GitHub by visiting:
+remote:      https://github.com/tbomb780/projects2022/pull/new/main
+remote:
+To github.com:tbomb780/projects2022.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Suresh Chand@DESKTOP-QKOIBO2 MINGW64 /d/Project 2022 (main)
+$
